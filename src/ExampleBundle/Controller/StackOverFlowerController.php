@@ -76,7 +76,7 @@ class StackOverFlowerController extends FOSRestController
     /**
      * newStackOverFlowerAction
      * 
-     * "new_stackoverflower" [POST] /stackoverflower/new/[example-name] 
+     * "new_stackoverflower" [GET] /stackoverflower/new/[example-name] 
      * 
      * @Get("/stackoverflower/new/{name}")
      * 
@@ -92,12 +92,11 @@ class StackOverFlowerController extends FOSRestController
             
         return $this->handleView($view);
     }
-    
-    //  
+      
     /**
      * editStackOverFlowerAction
      * 
-     * "edit_user" [GET] /user/edit/[example-id]/[example-name]
+     * "edit_stackoverflower" [GET] /user/edit/[example-id]/[example-name]
      * 
      * @Get("/stackoverflower/edit/{id}/{name}")
      * 
@@ -123,7 +122,7 @@ class StackOverFlowerController extends FOSRestController
     /**
      * deleteStackOverFlowerAction
      * 
-     * "delete_user" [DELETE] /user/edit.[xml|json]?id=[example-id]
+     * "get_user" [GET] /stackoverflower/delete/[example-id]
      * 
      * @Get("/stackoverflower/delete/{id}")
      * 
@@ -169,5 +168,4 @@ class StackOverFlowerController extends FOSRestController
         
         return $this->handleView($view);
     }
-    
 }
