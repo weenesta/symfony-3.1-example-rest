@@ -1,4 +1,14 @@
-Symfony Standard Edition
+Single RESTFul App based on FosRestBundle And Symfony 3.1
+========================
+This is a sample application based on symfony 3.1 to show how to do for StackOverFlow Documentation
+
+It comes pre-configured with the following bundles:
+
+  * **FostRestBundle** - The Friend Of Symfony Rest Bundle
+
+See https://github.com/FriendsOfSymfony/FOSRestBundle
+
+Based on Symfony Standard Edition
 ========================
 
 Welcome to the Symfony Standard Edition - a fully-functional Symfony
