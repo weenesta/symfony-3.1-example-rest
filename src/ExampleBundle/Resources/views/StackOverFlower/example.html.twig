@@ -1,0 +1,9 @@
+{% if errors is defined %}
+  {{ errors }}  
+{% else %}
+  {% if users is defined %}
+    {{ users | serialize }}
+  {% else %}
+    {{ user | serialize }}
+  {% endif %}
+{% endif %}

@@ -1,0 +1,7 @@
+example_homepage:
+    path:     /
+    defaults: { _controller: ExampleBundle:Default:index }
+    
+stackoverflower:
+    type:     rest
+    resource: ExampleBundle\Controller\StackOverFlowerController
